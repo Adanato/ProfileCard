@@ -18,20 +18,19 @@ function App() {
   );
 }
 function Avatar() {
-  return (
-    <img src="rabbit.jpg" alt="rabbit picture" style={{ width: "442px" }}></img>
-  );
+  return <img className="avatar" src="rabbit.jpg" alt="rabbit picture"></img>;
 }
 function Intro() {
   return (
     <React.Fragment>
-      <h2>Adam Nguyen</h2>
+      <h1>Adam Nguyen</h1>
       <p>
         Hello I'm Adam. I like making coding projects to improve my skills.
         Rabbits are one of my favorite animals. This summer I'm learning React
         to complement my frontend skills. Hopefully I'll learn node.js and
         operate apis on the backend with an sql database.
       </p>
+      <h3>Skills</h3>
     </React.Fragment>
   );
 }
@@ -42,9 +41,9 @@ function SkillList() {
       <Skill name="HTML" />
       <Skill name="CSS" />
       <Skill name="JavaScript" />
-      <Skill name="React" />
-      <Skill name="Node.Js" />
-      <Skill name="Express" />
+      <Skill name="React 🍔" />
+      <Skill name="Node.Js 🍔" />
+      <Skill name="Express 🍔" />
     </ul>
   );
 }
